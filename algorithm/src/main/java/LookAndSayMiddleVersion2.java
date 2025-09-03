@@ -13,6 +13,11 @@ public class LookAndSayMiddleVersion2 {
         return parseMiddle(s);
     }
 
+    /**
+     * n 번째 문자열 생성
+     * @param n
+     * @return
+     */
     private static String generate(int n) {
         String s = "1";    // 기본값 세팅
         for (int i = 2; i <= n; i++) {
@@ -30,6 +35,11 @@ public class LookAndSayMiddleVersion2 {
         return s;
     }
 
+    /**
+     * 가운데 두자리 수 파싱
+     * @param s
+     * @return
+     */
     private static int parseMiddle(String s) {
         int len = s.length();
         int midRight = len / 2;
