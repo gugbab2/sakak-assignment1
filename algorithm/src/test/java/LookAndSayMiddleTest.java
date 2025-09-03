@@ -12,7 +12,7 @@ class LookAndSayMiddleTest {
             "8,21"
     })
     void 성공_케이스(int n, int expected) {
-        assertEquals(expected, LookAndSayMiddleVersion1.middleTwoDigits(n));
+        assertEquals(expected, LookAndSayMiddleVersion2.middleTwoDigits(n));
     }
 
     @Test

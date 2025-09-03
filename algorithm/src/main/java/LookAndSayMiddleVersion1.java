@@ -1,5 +1,10 @@
 public class LookAndSayMiddleVersion1 {
 
+    /**
+     * 목적 : 테스트가 돌아가도록
+     * @param n
+     * @return
+     */
     public static int middleTwoDigits(int n) {
         if (n <= 0) throw new IllegalArgumentException("n 은 양수여야 합니다.");
 
